@@ -1,0 +1,221 @@
+
+/*CSS STYLE DU SITE
+AUTHOR : ADRAOU Hassan*/
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+}
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #cccccc;
+}
+
+
+nav {
+  background-color: #242424;
+  opacity: 75%;
+  
+}
+.logo {
+padding: 0;
+display: flex;
+flex-direction: row;
+justify-content:left;
+}
+
+a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  margin: 5px;
+  font: bold 15px;
+  display: inline;
+
+}
+a:hover {
+  background:-webkit-linear-gradient(top, #f976d5 50%, #0ec8b0 50%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.banner {
+  text-align: center;
+  color: #00c9c3;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: #0a0a0a 2px 5px 10px;
+
+
+  }
+  header {
+    background-image: url("./images/bg.jpg");
+    width: 100%;
+    height: auto;
+    opacity: 1.0;
+    border-bottom: #00c9c3 50px solid ;
+
+  }
+
+  .infos {
+    width: 50%;
+  }
+  
+  .image {
+    width: 90%;
+    box-shadow: #00c9c3 5px 10px 0px 0px;
+  }
+
+  .image:hover {
+    width: 90%;
+    box-shadow: #00c9c3 1px 1px 0px 0px;
+    opacity: 0.9;
+  }
+  
+
+em {
+  color: #00c9c3;
+}
+
+section {
+  border-bottom: #00c9c3 10px solid ;
+
+}
+
+form {
+  width: 50%;
+  max-width: 500px;
+  margin: auto;
+}
+
+input[type=text],input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #00efe8;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 12px;
+  border: 2px solid #00efe8;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #00c9c3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  }
+
+    label {
+    padding: 12px 12px 12px 0;
+    color: #4c4c4c;
+    font: 1.1em sans-serif;
+    font-weight:bold ;
+  }
+
+  .user {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+     }
+
+     img.user {
+      color: #00c9c3;
+      border-color: #00c9c3;
+      opacity: 0.5;
+     }
+
+h1 {
+  color: #4c4c4c;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  color: #0ec8b0;
+}
+.IMRAN {
+    background:-webkit-linear-gradient(top, #f976d5 50%, #0ec8b0 50%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+  
+  
+}
+.footerText {
+  font-size: 1.1em;
+  color: #0ec8b0;
+}
+
+
+footer {
+  background-color: rgb(41, 34, 34);
+  padding: 5px;
+}
+
+
+
+section {
+  padding: 80px;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #00c9c3;
+}
+
+
+nav a {
+  margin-left: auto;
+}
