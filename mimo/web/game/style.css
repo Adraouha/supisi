@@ -1,0 +1,17 @@
+body {
+    background-color: #19a3fc;
+    padding: 20px;
+  }
+  h1 {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5%;
+  }
+  p {
+    background-color: #174ae4;
+    color: aliceblue;
+    width: 200px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 25px;
+  }
