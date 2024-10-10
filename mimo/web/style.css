@@ -1,0 +1,49 @@
+body {
+    padding: 20px;
+    margin: 10px;
+    background-color: teal;
+  color: white;
+}
+
+ul{
+    border: solid 1px white;
+    background-color: rgb(198, 198, 209);
+    color: #181c27;
+    width: 25%;
+}
+
+li:hover{
+    color: #e3e6ed;
+    
+}
+
+button {
+    border-radius:10px ;
+}
+input {
+    border: #181c27;
+    color: teal ;
+    font: 1em sans-serif;
+    text-align: center;
+    border-radius:10px ;
+}
+button:hover {
+    background-color: teal;
+    border: solid 1px #f3f4f8;
+    color: #e3e6ed;
+    border-radius:10px ;
+}
+.credit{
+    margin-top: 25%;
+    border-top: solid 2px #e3e6ed;
+    text-align: center;
+    width: 25%;
+}
+
+#feedback{
+    border: #e3e6ed solid 1px;
+    background-color: #e3e6ed;
+    text-align: center;
+    width: 25%;
+    border-radius:10px ;
+}
