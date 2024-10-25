@@ -72,4 +72,3 @@ function checkGuess() {
     feedbackElement.style.color = "red";
   }
   }
-  
