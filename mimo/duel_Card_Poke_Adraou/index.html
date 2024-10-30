@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duelo de Cartas Pokémon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Duelo de Cartas Pokémon</h1>
+    <label for="num-players">Número de Jugadores:</label>
+    <input type="number" id="num-players" value="2" min="2" max="4">
+    <button id="start-game">Iniciar Juego</button>
+    <div class="game-container" id="game-container">
+        <!-- Los jugadores se agregarán dinámicamente aquí -->
+    </div>
+    <button id="draw-button" style="display:none;">¡Sacar cartas!</button>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
